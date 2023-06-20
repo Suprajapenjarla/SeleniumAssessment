@@ -1,0 +1,37 @@
+{
+  "tco1": {
+    "found": "pavanasupraja@gmail.com",
+    "pass": "Chinni@259",
+    "expectedMessage": "valid username and valid password"
+  },
+  "tco2": {
+    "found": "chandnimatta@gmail",
+    "pass": "chinni@259",
+    "expectedMessage": "invalid username and valid password"
+  },
+  "tco3": {
+    "found": "pavanasupraja123@gmail",
+    "pass": "",
+    "expectedMessage": "blank password"
+  },
+  "tco4": {
+    "found": "",
+    "pass": "Chinni@5",
+    "expectedMessage": "blank username "
+  },
+  "tco5": {
+    "found": "supraja2592",
+    "pass": "Lakshmi@259",
+    "expectedMessage": "invalid username and invalid password "
+  },
+  "tc06":{
+    "found": "",
+    "pass": "",
+    "expectedMessage": "blank username and blank password "
+  },
+  "tco7":{
+    "found": "kellaharikrishna123@gmail.com",
+    "pass": "Lakshmi@",
+    "expectedMessage": "valid username and invalid password"
+  }
+}
