@@ -17,6 +17,7 @@ public class loginValidUser {
         driver.findElement(By.xpath("//div[@class='tBJ dyH iFc sAJ xnr tg7 H2s']")).click();
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys("pavanasupraja@gmail.com");
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Chinni@259");
-        driver.findElement(By.xpath("/div[@class='zI7 iyn Hsu']")).click();
+        driver.findElement(By.xpath("//div[@class='zI7 iyn Hsu' and text()='Log in']")).click();
+
     }
 }
