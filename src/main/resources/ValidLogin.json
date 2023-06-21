@@ -1,37 +1,37 @@
 {
   "tc01": {
-    "found": "pavanasupraja@gmail.com",
-    "pass": "Chinni@259",
-    "expectedMessage": "valid username and valid password"
+    "Username": "pavanasupraja@gmail.com",
+    "Password": "Chinni@259",
+    "expMsg": "valid username and valid password"
   },
   "tc02": {
-    "found": "chandnimatta@gmail",
-    "pass": "chinni@259",
-    "expectedMessage": "invalid username and valid password"
+    "Username": "chandnimatta@gmail",
+    "Password": "chinni@259",
+    "expMsg": "invalid username and valid password"
   },
   "tc03": {
-    "found": "pavanasupraja123@gmail",
-    "pass": "",
-    "expectedMessage": "blank password"
+    "Username": "pavanasupraja123@gmail",
+    "Password": "",
+    "expMsg": "blank password"
   },
   "tc04": {
-    "found": "",
-    "pass": "Chinni@5",
-    "expectedMessage": "blank username "
+    "Username": "",
+    "Password": "Chinni@5",
+    "expMsg": "blank username "
   },
   "tc05": {
-    "found": "supraja2592",
-    "pass": "Lakshmi@259",
-    "expectedMessage": "invalid username and invalid password "
+    "Username": "supraja2592",
+    "Password": "Lakshmi@259",
+    "expMsg": "invalid username and invalid password "
   },
   "tc06":{
-    "found": "",
-    "pass": "",
-    "expectedMessage": "blank username and blank password "
+    "Username": "",
+    "Password": "",
+    "expMsg": "blank username and blank password "
   },
   "tc07":{
-    "found": "kellaharikrishna123@gmail.com",
-    "pass": "Lakshmi@",
-    "expectedMessage": "valid username and invalid password"
+    "Username": "kellaharikrishna123@gmail.com",
+    "Password": "Lakshmi@",
+    "expMsg": "valid username and invalid password"
   }
 }
